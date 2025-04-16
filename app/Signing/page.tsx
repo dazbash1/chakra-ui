@@ -1,8 +1,8 @@
 "use client"
 
-import Login from "@/components/ui/Login";
+import Signing from "@/components/ui/Signing";
 export default function page() {
     return (
-        <Login/>
+        <Signing/>
     )
 }

@@ -1,4 +1,4 @@
-import { Field, Input, Box, HStack, VStack, Button } from "@chakra-ui/react";
+import { Field, Input, Box, HStack, VStack, Button, Stack, Bleed } from "@chakra-ui/react";
 
 export default function Login() {
     return (
@@ -12,10 +12,11 @@ export default function Login() {
                     <Field.HelperText>لطفا شاره تماس خود را وارد کنید</Field.HelperText>
                     <Field.ErrorText>شماره خود را صحیح وارد کنید</Field.ErrorText>
                     <Button colorPalette='red'>
-                    ارسال کد
+                        ارسال کد
                     </Button>
                     <Field.HelperText>فراموشی رمز عبور</Field.HelperText>
                 </Field.Root>
+
             </VStack>
         </VStack>
     )
